@@ -15,7 +15,7 @@
 # Bringing in relevant modules
 import argparse
 import numpy as np
-import PlotRoutines
+import RADMC_PlotRoutines
 import os.path
 import sys
 

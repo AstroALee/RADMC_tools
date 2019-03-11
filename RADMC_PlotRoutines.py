@@ -59,7 +59,8 @@ def PlotIntMap(head,image,args):
     y_lo = -y_hi
 
     X = np.linspace(x_lo, x_hi, head["Nx"]/zoomfac)
-    Y = np.linspace(y_lo, y_hi, head["Ny"]/zoomfac)    image = image.reshape(head["Nx"],head["Ny"]) # original
+    Y = np.linspace(y_lo, y_hi, head["Ny"]/zoomfac)
+    image = image.reshape(head["Nx"],head["Ny"]) # original
 
 
     if(args.normalize==0):
